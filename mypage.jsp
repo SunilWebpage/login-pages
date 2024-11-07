@@ -9,7 +9,7 @@
 <body>
 <%String username = request.getParameter("username");
 String password = request.getParameter("password");
-if((username.equals("nandhitha")&& password.equals("nandhitha09")))
+if((username.equals("sunil")&& password.equals("sunil0509")))
 {
 	response.sendRedirect("main.html");
 }
